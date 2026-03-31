@@ -1,0 +1,12 @@
+print("Enter your information: ")
+name = input("Name: ")
+age = input("Age: ")
+city = input("City: ")
+fav_lang = input("Fav Programming Lang: ")
+
+print("\n--- Information Card ---")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"City: {city}")
+print(f"Fav Programming Language: {fav_lang}")
+print(f"Age next year: {int(age) + 1}")
