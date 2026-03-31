@@ -1,0 +1,11 @@
+print("Enter two numbers: ")
+num1 = float(input("First number: "))
+num2 = float(input("Second number: "))
+
+print(f"Addition: {num1 + num2:.2f}")
+print(f"Subtraction: {num1 - num2:.2f}")
+print(f"Multiplication: {num1 * num2:.2f}")
+print(f"True Division: {num1 / num2:.2f}")
+print(f"Floor Division: {num1 // num2:.2f}")
+print(f"Modulo: {num1 % num2:.2f}")
+print(f"Exponentiation: {num1 ** num2:.2f}")
